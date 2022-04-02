@@ -4,7 +4,7 @@ Juanma's dotfiles, heavily inspired on [Luke Smith's](https://github.com/LukeSmi
 
 - Settings for:
 	- Zsh (Main Shell)
-	- - Bash (Login Shell)
+	- Bash (Login Shell)
 	- Zathura (Document viewer)
 	- Neovim (Text Editor)
 	- VSCodium (IDE)
