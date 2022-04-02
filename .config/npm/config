@@ -1,2 +1,2 @@
-cache=/home/juanma/.cache/npm
+cache=~/.cache/npm
 prefix=~/.local/
