@@ -1,0 +1,35 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "clangd.path": "~/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/12.0.1/clangd_12.0.1/bin/clangd",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.openDevTools": "flutter",
+    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+    "editor.lineNumbers": "relative",
+    "redhat.telemetry.enabled": false,
+    "intelephense.telemetry.enabled": false,
+    "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.minimap.side": "left",
+    "editor.fontSize": 13.7,
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
+    "workbench.sideBar.location": "right",
+    "diffEditor.ignoreTrimWhitespace": false
+}
