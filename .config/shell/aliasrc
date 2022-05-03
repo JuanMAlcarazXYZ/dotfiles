@@ -38,7 +38,8 @@ alias \
 	se='sudoedit' \
 	slogout='gnome-session-quit --force' \
 	xo='xdg-open' \
-	py='python'
+	py='python' \
+	so='source'
 
 alias \
 	svn='svn --config-dir $XDG_CONFIG_HOME/subversion'

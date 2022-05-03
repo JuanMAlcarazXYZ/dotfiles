@@ -129,6 +129,17 @@ function! ToggleHiddenAll()
 endfunction
 nnoremap <leader>h :call ToggleHiddenAll()<CR>
 
+" Ctrl+U and Ctrl+W undoable
+if empty(mapcheck('<C-U>', 'i'))
+  inoremap <C-U> <C-G>u<C-U>
+endif
+if empty(mapcheck('<C-W>', 'i'))
+  inoremap <C-W> <C-G>u<C-W>
+endif
+
+" Fixes vim-commentary for Python
+filetype plugin indent on
+
 " VSCode Colors
 " colorscheme codedark
 " autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE

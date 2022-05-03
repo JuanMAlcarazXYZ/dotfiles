@@ -64,4 +64,9 @@
         "command": "workbench.action.moveEditorRightInGroup",
         "when": "editorTextFocus"
     },
+    {
+        "key": "ctrl+n",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorTextFocus"
+    }
 ]

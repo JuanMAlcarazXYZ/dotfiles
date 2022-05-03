@@ -1,7 +1,7 @@
 {
     "workbench.colorTheme": "Default Dark+",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-    "clangd.path": "~/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/12.0.1/clangd_12.0.1/bin/clangd",
+    "clangd.path": "/usr/bin/clangd",
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -31,5 +31,7 @@
     "dotnetAcquisitionExtension.enableTelemetry": false,
     "telemetry.telemetryLevel": "off",
     "workbench.sideBar.location": "right",
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.languageServer": "Jedi",
+    "workbench.list.automaticKeyboardNavigation": false
 }
