@@ -74,7 +74,7 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 # Load syntax highlighting; should be last.
-source $XDG_DATA_HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $XDG_DATA_HOME/zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 
 # Less colors
 export LESS="-RiJx4"

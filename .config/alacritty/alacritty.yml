@@ -1,0 +1,49 @@
+colors:
+  # Default colors
+  primary:
+    background: '0x111111'
+    foreground: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x111111'
+    red:     '0xd36265'
+    green:   '0xaece91'
+    yellow:  '0xe7e18c'
+    blue:    '0x5297cf'
+    magenta: '0x963c59'
+    cyan:    '0x5e7175'
+    white:   '0xbebebe'
+
+  # Bright colors
+  bright:
+    black:   '0x666666'
+    red:     '0xef8171'
+    green:   '0xcfefb3'
+    yellow:  '0xfff796'
+    blue:    '0x74b8ef'
+    magenta: '0xb85e7b'
+    cyan:    '0xa3babf'
+    white:   '0xffffff'
+
+font:
+  normal:
+    family: monospace
+    style: Regular
+
+  bold:
+    family: monospace
+    style: Bold
+
+  italic:
+    family: monospace
+    style: Italic
+
+  bold_italic:
+    family: monospace
+    style: Bold Italic
+
+  size: 11
+
+window:
+  opacity: 0.85
