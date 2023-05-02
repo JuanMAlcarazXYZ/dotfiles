@@ -78,7 +78,7 @@ source $XDG_DATA_HOME/zsh/fast-syntax-highlighting/fast-syntax-highlighting.plug
 
 # Less colors
 export LESS="-RiJx4"
-export LESSOPEN="|$XDG_CONFIG_HOME/less/filter %s"
+export LESSOPEN="|lesspipe.sh %s"
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin bold
 export LESS_TERMCAP_md=$'\E[1;36m'     # begin blink
 export LESS_TERMCAP_me=$'\E[0m'        # reset bold/blink
