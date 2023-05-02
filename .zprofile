@@ -5,8 +5,8 @@ export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
 
 # Default programs:
 export EDITOR="nvim"
-export BROWSER="brave-browser"
-export TERMINAL="st"
+export BROWSER="brave"
+export TERMINAL="alacritty"
 export VISUAL="$EDITOR"
 export PAGER="less"
 
@@ -51,4 +51,3 @@ export PATH=$ANDROID_HOME/cmdline-tools/tools/bin:$PATH
 export PATH=$ANDROID_HOME/emulator:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 
-export CAPS_XCAPE_BEHAVIOUR='Escape'
