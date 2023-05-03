@@ -53,6 +53,9 @@ browser = os.getenv("BROWSER") or "brave"
 editor = os.getenv("EDITOR") or "nano"
 editor_cmd = terminal .. " -e " .. editor
 
+screenshot = "flameshot full -c"
+screenshot_region = "flameshot gui"
+
 beautiful.useless_gap = 4
 
 -- Default modkey.
@@ -64,7 +67,6 @@ modkey = "Mod4"
 
 -- Table of layouts to cover with awful.layout.inc, order matters.
 awful.layout.layouts = {
-    awful.layout.suit.floating,
     awful.layout.suit.tile,
     awful.layout.suit.tile.left,
     awful.layout.suit.tile.bottom,
@@ -77,6 +79,7 @@ awful.layout.layouts = {
     awful.layout.suit.max.fullscreen,
     awful.layout.suit.magnifier,
     awful.layout.suit.corner.nw,
+    awful.layout.suit.floating,
     -- awful.layout.suit.corner.ne,
     -- awful.layout.suit.corner.sw,
     -- awful.layout.suit.corner.se,
@@ -280,7 +283,11 @@ globalkeys = gears.table.join(
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
     awful.key({ modkey,           }, "w", function () awful.spawn(browser) end,
-              {description = "open a terminal", group = "launcher"}),
+              {description = "open web browser", group = "launcher"}),
+    awful.key({ }, "Print", function () awful.spawn(screenshot) end,
+              {description = "Take full screenshot", group = "launcher"}),
+    awful.key({ "Shift" }, "Print", function () awful.spawn(screenshot_region) end,
+              {description = "Take full screenshot", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,

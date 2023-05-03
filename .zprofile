@@ -51,3 +51,4 @@ export PATH=$ANDROID_HOME/cmdline-tools/tools/bin:$PATH
 export PATH=$ANDROID_HOME/emulator:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 
+export QT_STYLE_OVERRIDE='Adwaita-dark'
