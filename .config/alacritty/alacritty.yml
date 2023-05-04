@@ -42,7 +42,7 @@ font:
     family: FantasqueSansM Nerd Font Mono
     style: Bold Italic
 
-  size: 11
+  size: 13
 
 window:
   opacity: 0.85
@@ -80,4 +80,5 @@ key_bindings:
   - { key: Equals,   mods: Control,                          action: ReceiveChar }
   - { key: J,        mods: Alt|Shift,                        action: DecreaseFontSize }
   - { key: K,        mods: Alt|Shift,                        action: IncreaseFontSize }
+  - { key: Return,   mods: Alt,                              action: SpawnNewInstance }
 
